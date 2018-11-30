@@ -20,4 +20,7 @@ function MultiplyNum(arr){
 }
 
 console.log(AddNumbers([2,1,3,4]));
+console.log(AddNumbers([2,1,-3,-4]));
 console.log(MultiplyNum([2,1,3,4]));
+console.log(MultiplyNum([2,1,3,-4]));
+
