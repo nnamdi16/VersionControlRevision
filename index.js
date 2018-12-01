@@ -25,3 +25,18 @@ console.log(AddNumbers([2,1,-3,-4]));
 console.log(MultiplyNum([2,1,3,4]));
 console.log(MultiplyNum([2,1,3,-4]));
 
+
+// Addition and Multiplication in one Function
+function AddandMultiply (arr) {
+	let add = 0;
+	let multi = 1;
+
+	for (let i = 0; i < arr.length; i++) {
+		add += arr[i];
+		multi *= arr[i];		
+	}
+	return `Addition: ${add} \n Multiply: ${multi}`;
+}
+
+console.log(AddandMultiply([2,1,3,4]));
+
