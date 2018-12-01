@@ -35,7 +35,7 @@ function AddandMultiply (arr) {
 		add += arr[i];
 		multi *= arr[i];		
 	}
-	return `Addition: ${add} \nMultiply: ${multi}`;
+	return `Addition: ${add} \n Multiply: ${multi}`;
 }
 
 console.log(AddandMultiply([2,1,3,4]));
