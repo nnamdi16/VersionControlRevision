@@ -1,2 +1,3 @@
 Write a function to add as many numbers and multiply as many numbers as the users put as an input.
+Combine the two functions as that can both multiply and add all the numbers in the array.
 
