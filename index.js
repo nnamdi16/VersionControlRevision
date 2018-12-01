@@ -1,4 +1,5 @@
 // Write a function to add as many numbers and multiply as many numbers as the users put as an input.
+//Check the task in file.txt
 
 // Add Numbers
 function AddNumbers(arr){
